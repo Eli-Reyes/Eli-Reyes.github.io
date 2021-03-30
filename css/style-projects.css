@@ -1,0 +1,194 @@
+@font-face{
+    font-family: "nunito regular";
+    src: url("../font/Nunito/Nunito-Regular.ttf") ;
+}
+@font-face{
+    font-family: "montserrat light";
+    src: url("../font/Montserrat/Montserrat-Light.ttf") ;
+
+}
+@font-face{
+    font-family: "monstserrat extralight";
+    src: url(../font/Montserrat/Montserrat-ExtraLight.ttf);
+}
+
+body{
+    margin-top: 144px;
+    background-color:#FBFAFA;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 80px;
+}
+header{
+    top: 0;
+    margin-bottom: 80px;
+    background-color: white;
+    height: 144px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   z-index: 3000;
+}
+nav{
+    width: 221px;
+    margin-left: 80px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+p{
+    font-family:"nunito regular";
+ font-size: 18px;
+ line-height: 25px;
+ color: #454545;
+}
+.p-project{
+    font-family: "montserrat light";
+    
+}
+.menu{
+    width: 280px;
+    display: flex;
+    justify-content:space-between;
+    margin-right: 80px;
+}
+
+.option{
+    font-family:"montserrat light";
+font-size: 16px;
+line-height: 22px;
+color: #454545;
+text-decoration: none;
+}
+
+.option-project{
+    font-family:"montserrat light";
+font-size: 16px;
+line-height: 22px;
+color: #454545;
+text-decoration: none;
+}
+.mail{
+    font-family: "nunito regular";
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+text-decoration-line: underline;
+}
+a{
+    color: #454545;
+}
+a:hover{
+    color:black;
+}
+
+h1{
+    font-family: "monstserrat extralight";
+font-size: 40px;
+    color: #454545;
+margin-left: 120px;
+margin-bottom: -20px;
+}
+span{
+    font-family: "montserrat light";
+}
+.title{
+    margin-bottom: 80px;
+    padding-right: 120px;
+}
+.container-yellow{
+    width: 440px;
+height: 56px;
+background-color: #F4FD53;
+
+}
+.projects{
+    margin-left: 160px;
+    margin-right: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.project-one{
+    margin-bottom: 64px;
+  
+}
+.project-two{
+    margin-bottom: 64px;
+}
+
+.project-three{
+    margin-bottom: 64px;
+}
+.project-four{
+    margin-bottom: 64px;
+}
+button{
+    width: 528px;
+    height: 528px;
+    background-color: #dadada;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+}
+button:hover{
+    background-color: #f7b3ce;
+    border-radius: 8px;
+    border: none;
+    animation: button 3s;
+}
+
+@keyframes button{
+    0%{
+        transform: scale(1);
+
+    }
+    50%{
+        transform: scale(1.04);
+        background-color: #e4568f;
+        font-size: 18px;
+        
+    
+    }
+    100%{
+        transform: scale(1);
+    }
+
+}
+
+.container-article{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.linkedin{
+    width: 24px;
+ height: 24px;
+}
+.medium{
+    width: 24px;
+ height: 24px;
+}
+.rrss{
+    width: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    height: 120px;
+    padding-right: 80px;
+    padding-left: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}

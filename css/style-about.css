@@ -1,0 +1,179 @@
+@font-face{
+    font-family: "nunito regular";
+    src: url("../font/Nunito/Nunito-Regular.ttf") ;
+}
+@font-face{
+    font-family: "montserrat light";
+    src: url("../font/Montserrat/Montserrat-Light.ttf") ;
+}
+@font-face{
+    font-family: "montserrat regular";
+    src: url(../font/Montserrat/Montserrat-Regular.ttf);
+}
+@font-face{
+    font-family: "monstserrat extralight";
+    src: url(../font/Montserrat/Montserrat-ExtraLight.ttf);
+}
+body{
+    margin-top: 144px;
+    background-color:#FBFAFA;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 80px;
+}
+header{
+    top: 0;
+    margin-bottom: 80px;
+    background-color: white;
+    height: 144px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   z-index: 3000;
+}
+p{
+    font-family:"nunito regular";
+    font-style: normal;
+    font-weight: normal;
+ font-size: 18px;
+ line-height: 25px;
+ color: #454545;
+}
+nav{
+    width: 221px;
+    margin-left: 80px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.text{
+    font-family:"nunito regular";
+    font-style: normal;
+    font-weight: normal;
+ font-size: 16px;
+ line-height: 24px;
+ color: #454545;
+ margin-bottom: 16px;
+}
+.menu{
+    width: 280px;
+    display: flex;
+    justify-content:space-between;
+    margin-right: 80px;
+}
+.option{
+    font-family:"montserrat light";
+font-size: 16px;
+line-height: 22px;
+color: #454545;
+text-decoration: none;
+}
+h1{
+    font-family: "monstserrat extralight";
+    font-size: 40px;
+    color: #454545;
+
+margin-left: 120px;
+margin-bottom: -20px;
+}
+span{
+    font-family:"montserrat light";
+    font-size: 40px;
+    color: #454545;
+}
+.container-yellow{
+    width: 440px;
+    height: 56px;
+    background-color: #F4FD53;
+}
+
+.about{
+    width: 560px;
+    margin-left: 120px;
+}
+.skill{
+    width: 1201px;
+    display: flex;
+    justify-content:space-between;
+    align-items: baseline;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+h4{
+    margin-bottom: 16px;
+    font-family: "montserrat regular";
+    font-size: 16px;
+    display:inline-block;
+
+    border-bottom: 1px solid  #454545;
+}
+.container-skill{
+    margin-top: 80px;
+    margin-left: 120px;
+    margin-right: 120px;
+    display: flex;
+    flex-direction: row;
+}
+.foto{
+    background-image: url(../images/Foto\ de\ Eli\ Reyes\ byn.jpg);
+    width: 560px;
+    height: 650px;
+    background-position-x: right;
+    background-position-y: top;
+}
+.sifuera{
+    margin-top: 24px;
+    font-style: italic;
+}
+.skill{
+    margin-top: 120px;
+}
+
+.mail{
+    color: black;
+    font-family:nunito semibold;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 27px;
+text-decoration-line: underline;
+}
+.individuales{
+    font-family: "nunito regular";
+    font-size: 16px;
+    width: 383px;
+
+}
+
+a{
+    color: #454545;
+}
+a:hover{
+    color: #F4FD53;
+}
+
+.linkedin{
+    width: 24px;
+ height: 24px;
+}
+.medium{
+    width: 24px;
+ height: 24px;
+}
+.rrss{
+    width: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    height: 120px;
+    padding-right: 80px;
+    padding-left: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}

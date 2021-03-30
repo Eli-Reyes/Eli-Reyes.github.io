@@ -1,0 +1,127 @@
+@font-face{
+    font-family: "nunito regular";
+    src: url("../font/Nunito/Nunito-Regular.ttf") ;
+}
+@font-face{
+    font-family: "montserrat light";
+    src: url("../font/Montserrat/Montserrat-Light.ttf") ;
+}
+@font-face{
+    font-family: "nunito light";
+    src: url(../font/Nunito/Nunito-Light.ttf);
+}
+@font-face{
+    font-family: "monstserrat extralight";
+    src: url(../font/Montserrat/Montserrat-ExtraLight.ttf);
+}
+main{
+    background-color: #FBFAFA;
+}
+header{
+
+    height: 144px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    width: 221px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+p{
+    font-family:"nunito light";
+ font-size: 18px;
+ line-height: 25px;
+ color: #454545;
+}
+.menu{
+    width: 280px;
+    display: flex;
+    justify-content:space-between;
+}
+.option{
+    font-family:"montserrat light";
+font-size: 16px;
+line-height: 22px;
+color: #454545;
+text-decoration: none;
+}
+
+.mail{
+    font-family:nunito regular;
+font-size: 20px;
+line-height: 27px;
+text-decoration-line: underline;
+}
+article{
+    text-align: center;
+    width: 1150px;
+    padding-bottom: 137px;
+}
+h1{
+    margin-bottom: 56px;
+    font-family: "nunito light";
+font-weight: 300;
+font-size: 36px;
+line-height: 44px;
+color: #454545;
+}
+h2{
+    margin-bottom: 136px;
+    font-family: "nunito light";
+font-size: 36px;
+line-height: 59px;
+color: #454545;
+}
+h3{
+    font-family: "monstserrat extralight";
+    font-style: italic;
+    font-size: 28px;
+    line-height: 48px;
+color: #454545;
+}
+h4{
+    font-family: "montserrat light";
+    color: #454545;
+font-size: 20px;
+line-height: 48px;
+}
+.main-one{
+   padding-left: 160px;
+   padding-top: 120px;
+}
+a{
+    font-family:"montserrat light";
+    color: #454545;
+}
+a:hover{
+   color: #F4FD53;
+}
+.linkedin{
+    width: 24px;
+ height: 24px;
+}
+.medium{
+    width: 24px;
+ height: 24px;
+}
+.rrss{
+    width: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    background-color: #FBFAFA;
+    height: 120px;
+    padding-right: 80px;
+    padding-left: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}

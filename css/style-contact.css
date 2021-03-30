@@ -1,0 +1,120 @@
+@font-face{
+    font-family: "nunito regular";
+    src: url("../font/Nunito/Nunito-Regular.ttf") ;
+}
+@font-face{
+    font-family: "montserrat light";
+    src: url("../font/Montserrat/Montserrat-Light.ttf") ;
+}
+@font-face{
+    font-family: "monstserrat extralight";
+    src: url(../font/Montserrat/Montserrat-ExtraLight.ttf);
+}
+body{
+    margin-top: 144px;
+    background-color:#FBFAFA;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 80px;
+}
+header{
+    top: 0;
+    margin-bottom: 80px;
+    background-color: white;
+    height: 144px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   z-index: 3000;
+}
+p{
+    font-family:"nunito regular";
+    font-style: normal;
+    font-weight: normal;
+ font-size: 18px;
+ line-height: 25px;
+ color: #454545;
+}
+nav{
+    width: 221px;
+    margin-left: 80px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.menu{
+    width: 280px;
+    display: flex;
+    justify-content:space-between;
+    margin-right: 80px;
+}
+.option{
+    font-family:"montserrat light";
+font-size: 16px;
+line-height: 22px;
+color: #454545;
+text-decoration: none;
+}
+h1{
+    font-family:"monstserrat extralight";
+font-size: 40px;
+color: #454545;
+margin-left: 120px;
+margin-bottom: -20px;
+}
+.container-yellow{
+    width: 440px;
+    height: 56px;
+    background-color: #F4FD53;
+}
+.contact{
+    width: 938px;
+    margin-left: 250px;
+    margin-top: 160px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 315px;
+}
+h3{
+    font-family: "montserrat light";
+    font-size: 24px;
+    color: #454545;
+    margin-bottom: 36px;
+    display:inline-block;
+
+    border-bottom: 2px solid #454545;
+}
+.data{
+    font-family: "nunito regular"
+    color= #454545;
+}
+.direccion{
+    color: #454545;
+}
+.linkedin{
+    width: 24px;
+ height: 24px;
+}
+.medium{
+    width: 24px;
+ height: 24px;
+}
+.rrss{
+    width: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    height: 120px;
+    padding-right: 80px;
+    padding-left: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
