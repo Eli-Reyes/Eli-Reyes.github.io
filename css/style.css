@@ -14,6 +14,10 @@
     font-family: "monstserrat extralight";
     src: url(../font/Montserrat/Montserrat-ExtraLight.ttf);
 }
+@font-face{
+    font-family: "nunito extralight";
+    src: url(../font/Nunito/Nunito-ExtraLight.ttf);
+}
 main{
     background-color: #FBFAFA;
 }
@@ -64,7 +68,7 @@ article{
 }
 h1{
     margin-bottom: 56px;
-    font-family: "nunito light";
+    font-family: "nunito extralight";
 font-weight: 300;
 font-size: 36px;
 line-height: 44px;
@@ -99,7 +103,7 @@ a{
     color: #454545;
 }
 a:hover{
-   color: #F4FD53;
+    color:#FFA1F0;
 }
 .linkedin{
     width: 24px;
@@ -124,4 +128,9 @@ footer{
     justify-content: space-between;
     align-items: center;
 
+}
+span{
+    background-color: #F4FD53;
+    font-family: "nunito regular";
+    
 }

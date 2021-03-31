@@ -14,6 +14,42 @@
     font-family: "monstserrat extralight";
     src: url(../font/Montserrat/Montserrat-ExtraLight.ttf);
 }
+@font-face{
+    font-family: "nunito light";
+    src: url(../font/Nunito/Nunito-Light.ttf);
+}
+@font-face{
+    font-family:"nunito semibold";
+    src: url(../font/Nunito/Nunito-SemiBold.ttf);
+}
+@font-face{
+    font-family: "nunito italic";
+    src: url(../font/Nunito/Nunito-Italic.ttf);
+}
+@font-face{
+    font-family: "nunito italic bold";
+    src: url(../font/Nunito/Nunito-BoldItalic.ttf);
+}
+@font-face{
+    font-family: "nunito bold";
+    src: url(../font/Nunito/Nunito-Bold.ttf);
+}
+.bold{
+    font-family:"nunito bold";
+    font-size: 16px;;
+}
+.semibold{
+    font-family:"nunito semibold";
+    font-size: 16px;;
+}
+.italic{
+    font-family:"nunito italic";
+    font-size: 16px;;
+}
+.italicbold{
+    font-family:"nunito italic bold";
+    font-size: 16px;;
+}
 body{
     margin-top: 144px;
     background-color:#FBFAFA;
@@ -34,7 +70,7 @@ header{
    z-index: 3000;
 }
 p{
-    font-family:"nunito regular";
+    font-family:"nunito light";
     font-style: normal;
     font-weight: normal;
  font-size: 18px;
@@ -55,7 +91,7 @@ nav{
  font-size: 16px;
  line-height: 24px;
  color: #454545;
- margin-bottom: 16px;
+ margin-bottom: 24px;
 }
 .menu{
     width: 280px;
@@ -69,6 +105,9 @@ font-size: 16px;
 line-height: 22px;
 color: #454545;
 text-decoration: none;
+}
+#about{
+    font-family: "montserrat regular";
 }
 h1{
     font-family: "monstserrat extralight";
@@ -102,12 +141,13 @@ span{
     margin-right: 120px;
 }
 h4{
-    margin-bottom: 16px;
-    font-family: "montserrat regular";
+    font-family: "monstserrat light";
     font-size: 16px;
+    color: #454545;
+    padding-bottom: 16px;
     display:inline-block;
-
-    border-bottom: 1px solid  #454545;
+    border-bottom: 2px solid #FFA1F0;
+    margin-bottom: 32px;
 }
 .container-skill{
     margin-top: 80px;
@@ -151,7 +191,7 @@ a{
     color: #454545;
 }
 a:hover{
-    color: #F4FD53;
+    color:#FFA1F0;
 }
 
 .linkedin{

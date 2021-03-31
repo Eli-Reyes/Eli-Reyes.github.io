@@ -3,6 +3,10 @@
     src: url("../font/Nunito/Nunito-Regular.ttf") ;
 }
 @font-face{
+    font-family: "nunito extralight";
+    src: url(../font/Nunito/Nunito-ExtraLight.ttf);
+}
+@font-face{
     font-family: "montserrat light";
     src: url("../font/Montserrat/Montserrat-Light.ttf") ;
 
@@ -10,6 +14,14 @@
 @font-face{
     font-family: "monstserrat extralight";
     src: url(../font/Montserrat/Montserrat-ExtraLight.ttf);
+}
+@font-face{
+    font-family: "nunito light";
+    src: url(../font/Nunito/Nunito-Light.ttf);
+}
+@font-face{
+    font-family: "montserrat regular";
+    src: url(../font/Montserrat/Montserrat-Regular.ttf);
 }
 
 body{
@@ -39,7 +51,7 @@ nav{
     align-items:center;
 }
 p{
-    font-family:"nunito regular";
+    font-family:"nunito light";
  font-size: 18px;
  line-height: 25px;
  color: #454545;
@@ -48,6 +60,7 @@ p{
     font-family: "montserrat light";
     
 }
+
 .menu{
     width: 280px;
     display: flex;
@@ -64,7 +77,7 @@ text-decoration: none;
 }
 
 .option-project{
-    font-family:"montserrat light";
+    font-family:"montserrat regular";
 font-size: 16px;
 line-height: 22px;
 color: #454545;
@@ -82,7 +95,7 @@ a{
     color: #454545;
 }
 a:hover{
-    color:black;
+    color:#FFA1F0;
 }
 
 h1{
@@ -132,31 +145,60 @@ button{
     width: 528px;
     height: 528px;
     background-color: #dadada;
-    border-radius: 4px;
     cursor: pointer;
     border: none;
+    font-size: 24PX;
+   font-family:"montserrat light";
+   
 }
+
 button:hover{
     background-color: #f7b3ce;
-    border-radius: 8px;
     border: none;
     animation: button 3s;
+}
+.proyect1{
+    background-image: url(../images/proyecto1.jpg);
+    background-size: cover;
+    opacity: 90%;
+}
+.proyect2{
+    background-image: url(../images/proyecto4.jpg);
+    background-size: cover;
+opacity: 90%;
+}
+.proyect3{
+    background-image: url(../images/proyecto3.jpg);
+    background-size: cover;
+    opacity: 90%;
+}
+.proyect4{
+    background-image: url(../images/proyecto2.jpg);
+    background-size: cover;
+    opacity: 90%;
 }
 
 @keyframes button{
     0%{
         transform: scale(1);
-
+        opacity: 50%;
+        font-size: 24PX;
+        display: none;
+        
     }
     50%{
-        transform: scale(1.04);
+        transform: scale(1.05);
         background-color: #e4568f;
-        font-size: 18px;
-        
+        font-size: 28px;
+        display:block;
+        opacity: 30%;
+        font-size: 28PX;
     
     }
     100%{
-        transform: scale(1);
+        transform: scale(1.06);
+        opacity: 20%;
+        font-size: 28PX;
     }
 
 }

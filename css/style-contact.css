@@ -9,6 +9,15 @@
 @font-face{
     font-family: "monstserrat extralight";
     src: url(../font/Montserrat/Montserrat-ExtraLight.ttf);
+    
+}
+@font-face{
+    font-family: "nunito light";
+    src: url(../font/Nunito/Nunito-Light.ttf);
+}
+@font-face{
+    font-family: "montserrat regular";
+    src: url(../font/Montserrat/Montserrat-Regular.ttf);
 }
 body{
     margin-top: 144px;
@@ -30,12 +39,19 @@ header{
    z-index: 3000;
 }
 p{
-    font-family:"nunito regular";
+    font-family:"nunito light";
     font-style: normal;
     font-weight: normal;
  font-size: 18px;
  line-height: 25px;
  color: #454545;
+}
+#contact{
+    font-family: "montserrat regular";
+
+}
+span{
+    font-family: "montserrat light";
 }
 nav{
     width: 221px;
@@ -72,7 +88,7 @@ margin-bottom: -20px;
 .contact{
     width: 938px;
     margin-left: 250px;
-    margin-top: 160px;
+    margin-top: 190px;
     display: flex;
     flex-direction: row;
     align-items: baseline;
@@ -80,27 +96,32 @@ margin-bottom: -20px;
     margin-bottom: 315px;
 }
 h3{
-    font-family: "montserrat light";
+    font-family: "monstserrat extralight";
     font-size: 24px;
     color: #454545;
-    margin-bottom: 36px;
+    padding-bottom: 16px;
     display:inline-block;
-
-    border-bottom: 2px solid #454545;
+    border-bottom: 2px solid #FFA1F0;
+    margin-bottom: 32px;
 }
 .data{
-    font-family: "nunito regular"
+    font-size: 18px;
+    font-family: "nunito regular";
     color= #454545;
+    font-size: 18px;
 }
 .direccion{
+    font-size: 18px;
+    font-family: "nunito regular";
     color: #454545;
+
 }
 .linkedin{
-    width: 24px;
+width: 24px;
  height: 24px;
 }
 .medium{
-    width: 24px;
+width: 24px;
  height: 24px;
 }
 .rrss{
@@ -117,4 +138,18 @@ footer{
     justify-content: space-between;
     align-items: center;
 
+}
+article{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+a{
+    color: #454545;
+    font-size: 18px;
+    font-family: "nunito regular";
+    text-decoration: none;
+}
+a:hover{
+    color:#FFA1F0;
 }
